@@ -9,7 +9,7 @@ function exibirTextoNaTela(tag, texto) {
   let campo = document.querySelector(tag);
   if (campo) campo.innerHTML = texto;
   // Corrigido: nome correto da biblioteca
-  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', { rate: 1.3 });
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', { rate: 1.1 });
 }
 
 function exibirMensagemInicial() {
@@ -70,3 +70,4 @@ function reiniciarJogo() {
   const btn = document.getElementById('reiniciar');
   if (btn) btn.disabled = true; // propriedade correta
 }
+
